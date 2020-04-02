@@ -1,6 +1,6 @@
 
 body {
-  background: #61dafb;
+  background: white;
 }
 .App {
   text-align: center;
@@ -15,4 +15,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#map {
+  height: 400px;
 }

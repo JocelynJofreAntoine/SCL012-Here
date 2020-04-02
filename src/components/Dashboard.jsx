@@ -1,6 +1,9 @@
 import React, { Fragment } from 'react'
 import firebase from "./firebase";
-import { withRouter } from 'react-router-dom'
+import { withRouter } from 'react-router-dom';
+import AppMap from "../components/AppMap";
+
+
 
 function Dashboard(props) {
   if (!firebase.getCurrentUsername()) {
@@ -19,6 +22,8 @@ function Dashboard(props) {
           Logout
         </button>
       </div>
+      <AppMap/>
+      {/* <div id="map"></div> */}
     </Fragment>
   );
 
