@@ -1,11 +1,13 @@
 #sidebar a {
-  color: #18121e;
-  text-decoration: none;
-  width: 80px;
-  transition: all 0.4s ease;
-  display: flex;
+    color: white;
+    text-decoration: none;
+    width: 50px;
+    transition: all 0.4s ease;
+    display: flex;
 }
 
 .sidebar {
-  display: flex;
+    display: flex;
+    background-color: black;
+    width: 150%;
 }

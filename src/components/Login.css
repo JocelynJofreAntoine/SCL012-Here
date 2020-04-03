@@ -10,25 +10,21 @@ body {
     background-color: gray;
 }
 
-.first_view {
-    width: 320px;
-}
+.first_view {}
 
 header {
-    height: 13rem;
+    display: flex;
+    justify-content: center
 }
 
 img.huellas_logo {
     width: 70%;
-    margin-left: 10%;
-    display: flex;
 }
 
 input.form-control {
-    margin-left: 10%;
     background-color: rgba(69, 63, 63, 0.14);
     border-radius: 10px;
-    width: 20rem;
+    width: 100%;
     border: none;
     margin-top: 2%;
 }
@@ -40,9 +36,10 @@ input.form-control {
 
 h5 {
     font-size: 13px;
+    color: #453f3f;
     display: flex;
-    color: #453F3F;
-    margin-left: 10%;
+    justify-content: left;
+    align-items: center;
 }
 
 .login_google,
@@ -52,7 +49,6 @@ h5 {
     color: white;
     border-radius: 10px;
     border-color: none;
-    margin-left: 14%;
     font-size: 13px;
     margin-top: 2%;
     border: none;
@@ -72,8 +68,7 @@ h5 {
     border-radius: 20px;
     border: none;
     color: white;
-    margin-top: 7%;
-    margin-left: 33%;
+    margin-top: 6%;
     font-size: 13px;
     width: 30%;
     height: 2.5rem;
@@ -82,7 +77,6 @@ h5 {
 h6 {
     font-size: 11px;
     padding-top: 0.5%;
-    padding-left: 25%;
 }
 
 .register {
@@ -91,70 +85,12 @@ h6 {
     font-weight: bold;
 }
 
-@media (max-width:320px) {
-    header {
-        height: 13rem;
-    }
-    img.huellas_logo {
-        width: 70%;
-        margin-left: 10%;
-        display: flex;
-    }
-    input.form-control {
-        margin-left: 10%;
-        background-color: rgba(69, 63, 63, 0.14);
-        border-radius: 10px;
-        width: 20rem;
-        border: none;
-        margin-top: 2%;
-    }
-    .mail {
-        background-color: rgba(69, 63, 63, 0.14);
-        border-radius: 10px;
-    }
-    h5 {
-        font-size: 13px;
-        display: flex;
-        color: #453F3F;
-        margin-left: 10%;
-    }
-    .login_google,
-    .login_facebook {
-        width: 17.625rem;
-        height: 2.0625rem;
-        color: white;
-        border-radius: 10px;
-        border-color: none;
-        margin-left: 14%;
-        font-size: 13px;
-        margin-top: 2%;
-        border: none;
-    }
-    .login_google {
-        background: #DC4E41;
-    }
-    .login_facebook {
-        background: #3F65A6;
-    }
-    .login {
-        background: #4ABDAC;
-        border-radius: 20px;
-        border: none;
-        color: white;
-        margin-top: 7%;
-        margin-left: 33%;
-        font-size: 13px;
-        width: 30%;
-        height: 2.5rem;
-    }
-    h6 {
-        font-size: 11px;
-        padding-top: 0.5%;
-        padding-left: 24%;
-    }
-    .register {
-        border: none;
-        font-style: initial;
-        font-weight: bold;
-    }
+.container-pass {
+    width: 100%;
+}
+
+p {
+    font-size: 12px;
+    width: 90%;
+    text-align: left;
 }

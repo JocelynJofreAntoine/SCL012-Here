@@ -1,11 +1,6 @@
 import React from "react";
 import { Map, TileLayer, Marker } from "react-leaflet";
 
-const hereCredentials = {
-  id: "4urefBTdX83MUJzvP0jV",
-  code: "YatXWn5RsvdkGIog8fwYN5DEC_DTzFVTt518X6YJ5sI"
-};
-
 class MapContainer extends React.Component {
   constructor(props) {
     super(props);
@@ -15,8 +10,7 @@ class MapContainer extends React.Component {
     const hereTileUrl = `https://1.base.maps.ls.hereapi.com/maptile/2.1/maptile/newest/reduced.day/{z}/{x}/{y}/512/png8?apiKey=YatXWn5RsvdkGIog8fwYN5DEC_DTzFVTt518X6YJ5sI &api:320`;
     return (
       <Map
-        zoomControl={false}
-        attributionControl={false}
+        ref={this.props.onMap}
         center={this.props.center}
         zoom={this.props.zoom}
       >

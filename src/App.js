@@ -12,7 +12,7 @@ import Layout from "./components/Layout";
 // import Apigeofencing from './components/ApiGeofencing.js'
 
 function App() {
-  const [firebaseInitialized, setFirebaseInitialized] = useState(false);
+  const [firebaseInitialized, setFirebaseInitialized] = useState([]);
 
   useEffect(() => {
     firebase.isInitialized().then(val => {

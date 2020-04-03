@@ -1,7 +1,9 @@
 #home a {
-  color: #18121e;
-  text-decoration: none;
-  width: 80px;
-  transition: all 0.4s ease;
-  display: flex;
+    color: #18121e;
+    text-decoration: none;
+    width: 80px;
+    transition: all 0.4s ease;
+    display: flex;
 }
+
+.container {}

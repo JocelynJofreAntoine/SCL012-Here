@@ -5,7 +5,6 @@
     color: white;
     border-radius: 10px;
     border-color: none;
-    margin-left: 14%;
     font-size: 13px;
     margin-top: 2%;
     border: none;
@@ -25,7 +24,6 @@
     border: none;
     color: white;
     margin-top: 7%;
-    margin-left: 33%;
     font-size: 13px;
     width: 30%;
     height: 2.5rem;
@@ -35,4 +33,36 @@
     border: none;
     font-style: initial;
     font-weight: bold;
+}
+
+.name {
+    font-size: 13px;
+    display: flex;
+    color: #453F3F;
+}
+
+p {
+    font-size: 12px;
+    width: 80%;
+    text-align: left;
+}
+
+.row {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+}
+
+.container-input {
+    width: 100%;
+}
+
+h5 {
+    font-size: 13px;
+    color: #453f3f;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
